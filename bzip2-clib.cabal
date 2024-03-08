@@ -1,17 +1,27 @@
-cabal-version:      2.0
-name:               bzip2-clib
-version:            1.0.8
-copyright:          (c) 2024 Julian Ospald
-license:            BSD3
-author:             Julian Ospald <hasufell@posteo.de>
-maintainer:         Julian Ospald <hasufell@posteo.de>
-category:           Codec
-synopsis:           bzip2 C sources
+cabal-version:   2.4
+name:            bzip2-clib
+version:         1.0.8
+copyright:       (c) 2024 Julian Ospald
+license:         LicenseRef-bzip2
+license-file:    cbits/LICENSE
+author:          Julian Ospald <hasufell@posteo.de>
+maintainer:      Julian Ospald <hasufell@posteo.de>
+category:        Codec
+synopsis:        bzip2 C sources
 description:
   Bundled C sources for use with various bzip2 Haskell bindings.
 
-build-type:         Simple
-extra-source-files: cbits/LICENSE
+build-type:      Simple
+extra-doc-files: CHANGELOG.md
+
+source-repository head
+  type:     git
+  location: https://github.com/hasufell/bzip2-clib.git
+
+source-repository head
+  type:     git
+  location: https://github.com/hasufell/bzip2-clib.git
+  tag:      1.0.8
 
 library
   default-language: Haskell2010
