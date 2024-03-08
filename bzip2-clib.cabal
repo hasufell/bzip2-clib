@@ -2,7 +2,7 @@ cabal-version:   2.4
 name:            bzip2-clib
 version:         1.0.8
 copyright:       (c) 2024 Julian Ospald
-license:         LicenseRef-bzip2
+license:         bzip2-1.0.6
 license-file:    cbits/LICENSE
 author:          Julian Ospald <hasufell@posteo.de>
 maintainer:      Julian Ospald <hasufell@posteo.de>
