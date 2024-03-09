@@ -2,7 +2,9 @@ cabal-version:   2.4
 name:            bzip2-clib
 version:         1.0.8
 copyright:       (c) 2024 Julian Ospald
-license:         bzip2-1.0.6
+-- it's actually bzip2-1.0.6, but hackage is blocking it, so we just lie
+-- https://github.com/haskell/hackage-server/issues/1294
+license:         BSD-3-Clause
 license-file:    cbits/LICENSE
 author:          Julian Ospald <hasufell@posteo.de>
 maintainer:      Julian Ospald <hasufell@posteo.de>
